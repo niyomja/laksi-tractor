@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Tractor">
+</Property><Property Name="Solution File" Value="E:\Tractor\Tractor\Tractor.sln">
+</Property><Property Name="Date" Value="21 สิงหาคม 2558">
+</Property><Property Name="Time" Value="10:16">
+</Property></Properties><Event ErrorLevel="4" Project="appTractor" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="appTractor" Source="appTractor\appTractor.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="appTractor" Source="appTractor\appTractor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dalTractor" Source="dalTractor\dalTractor.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dalTractor" Source="dalTractor\dalTractor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Tractor.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Tractor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dalTractor" Source="dalTractor\dalTractor.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="appTractor" Source="appTractor\appTractor.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,14 @@
+D:\Projects\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.dll
+D:\Projects\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.pdb
+D:\Projects\Tractor\Tractor\dalTractor\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.dll
+D:\Projects\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.pdb
+E:\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.dll
+E:\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.pdb
+E:\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.dll
+E:\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.pdb
+D:\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.dll
+D:\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.pdb
+D:\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.dll
+D:\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.pdb
+D:\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.csprojResolveAssemblyReference.cache

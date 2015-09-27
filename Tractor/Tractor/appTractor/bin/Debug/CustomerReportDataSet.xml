@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" minOccurs="0" />
+                <xs:element name="companyName" type="xs:string" minOccurs="0" />
+                <xs:element name="description" type="xs:string" minOccurs="0" />
+                <xs:element name="locationG" type="xs:string" minOccurs="0" />
+                <xs:element name="locationIM" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="customerId" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="customerName" type="xs:string" minOccurs="0" />
+                <xs:element name="contact" type="xs:string" minOccurs="0" />
+                <xs:element name="create_by" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="create_at" type="xs:string" minOccurs="0" />
+                <xs:element name="update_by" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="update_at" type="xs:string" minOccurs="0" />
+                <xs:element name="is_delete" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="address" type="xs:string" minOccurs="0" />
+                <xs:element name="fax" type="xs:string" minOccurs="0" />
+                <xs:element name="tax_no" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <Id>1</Id>
+    <companyName>หจก. หลักสี่แทรกเตอร์</companyName>
+    <description>Enter Descripton dsd</description>
+    <locationG>3B5</locationG>
+    <locationIM>2A6</locationIM>
+  </Table>
+  <Table1>
+    <customerId>3</customerId>
+    <customerName>BMC</customerName>
+    <create_by>1</create_by>
+    <create_at>2015-08-15 11:25:56</create_at>
+    <is_delete>0</is_delete>
+  </Table1>
+  <Table1>
+    <customerId>1</customerId>
+    <customerName>BMW</customerName>
+    <contact>02000</contact>
+    <create_by>1</create_by>
+    <create_at>2015-08-15 11:25:19</create_at>
+    <update_by>1</update_by>
+    <update_at>2015-08-18 15:09:28</update_at>
+    <is_delete>0</is_delete>
+    <address>Bangkok Thailand</address>
+    <fax>02200</fax>
+    <tax_no>100-100</tax_no>
+  </Table1>
+  <Table1>
+    <customerId>2</customerId>
+    <customerName>ES Motor</customerName>
+    <contact />
+    <create_by>1</create_by>
+    <create_at>2015-08-15 11:25:44</create_at>
+    <update_by>1</update_by>
+    <update_at>2015-08-18 15:13:15</update_at>
+    <is_delete>0</is_delete>
+    <address>Bangkok Thailand</address>
+    <fax />
+    <tax_no />
+  </Table1>
+  <Table1>
+    <customerId>4</customerId>
+    <customerName>ถาวร</customerName>
+    <create_by>1</create_by>
+    <create_at>2015-08-15 11:26:03</create_at>
+    <is_delete>0</is_delete>
+  </Table1>
+  <Table1>
+    <customerId>5</customerId>
+    <customerName>ไทยนคร</customerName>
+    <create_by>1</create_by>
+    <create_at>2015-08-15 11:26:07</create_at>
+    <is_delete>0</is_delete>
+  </Table1>
+</NewDataSet>
