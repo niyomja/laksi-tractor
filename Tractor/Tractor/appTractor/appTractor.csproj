@@ -17,6 +17,7 @@
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -29,7 +30,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -97,6 +97,7 @@
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\PartController.cs" />
     <Compile Include="Controller\ReportController.cs" />
+    <Compile Include="Controller\TestController.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="helper\CalendarColumn.cs">
       <SubType>Component</SubType>
@@ -112,6 +113,7 @@
     <Compile Include="Model\PartInventoryModel.cs" />
     <Compile Include="Model\PartModel.cs" />
     <Compile Include="Model\ReportModel.cs" />
+    <Compile Include="Model\TestModel.cs" />
     <Compile Include="Model\UserModel.cs" />
     <Compile Include="Report\CRBalanceReport.cs">
       <AutoGen>True</AutoGen>

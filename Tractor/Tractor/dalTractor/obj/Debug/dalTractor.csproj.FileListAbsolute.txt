@@ -14,6 +14,5 @@ D:\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.pdb
 D:\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.csprojResolveAssemblyReference.cache
 D:\Workspace\laksi-tractor\laksi-tractor\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.dll
 D:\Workspace\laksi-tractor\laksi-tractor\Tractor\Tractor\dalTractor\bin\Debug\dalTractor.pdb
-D:\Workspace\laksi-tractor\laksi-tractor\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.csprojResolveAssemblyReference.cache
 D:\Workspace\laksi-tractor\laksi-tractor\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.dll
 D:\Workspace\laksi-tractor\laksi-tractor\Tractor\Tractor\dalTractor\obj\Debug\dalTractor.pdb

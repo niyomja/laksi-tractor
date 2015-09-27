@@ -162,7 +162,7 @@ namespace appTractor.Controller
             CompanyModel companyModel = new CompanyModel();
             company = companyModel.getCompany();
 
-            view.Text = company.Name + " - Version 1.0";
+            view.Text = company.Name + " - Version 1.2.0";
 
             view.Show();
         }
