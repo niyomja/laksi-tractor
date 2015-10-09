@@ -59,6 +59,7 @@
             this.colEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMobile = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colStatus = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.colIsAdmin = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.colLastAccess = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
@@ -197,6 +198,7 @@
             this.colEmail,
             this.colMobile,
             this.colStatus,
+            this.colIsAdmin,
             this.colLastAccess});
             this.dataGridView1.DataSource = this.bindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(0, 28);
@@ -253,9 +255,11 @@
             // 
             // dataGridViewTextBoxColumn7
             // 
+            this.dataGridViewTextBoxColumn7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn7.DataPropertyName = "lastaccess";
             this.dataGridViewTextBoxColumn7.HeaderText = "Last Access";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Width = 130;
             // 
             // colUserName
             // 
@@ -286,6 +290,7 @@
             this.colEmail.DataPropertyName = "Email";
             this.colEmail.HeaderText = "E-mail";
             this.colEmail.Name = "colEmail";
+            this.colEmail.Width = 140;
             // 
             // colMobile
             // 
@@ -297,12 +302,21 @@
             // 
             this.colStatus.DataPropertyName = "Status";
             this.colStatus.FalseValue = "0";
-            this.colStatus.HeaderText = "Status";
+            this.colStatus.HeaderText = "Login";
             this.colStatus.Name = "colStatus";
             this.colStatus.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colStatus.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.colStatus.TrueValue = "1";
             this.colStatus.Width = 60;
+            // 
+            // colIsAdmin
+            // 
+            this.colIsAdmin.DataPropertyName = "RoleAdmin";
+            this.colIsAdmin.FalseValue = "0";
+            this.colIsAdmin.HeaderText = "Admin";
+            this.colIsAdmin.Name = "colIsAdmin";
+            this.colIsAdmin.TrueValue = "1";
+            this.colIsAdmin.Width = 60;
             // 
             // colLastAccess
             // 
@@ -365,6 +379,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colEmail;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMobile;
         private System.Windows.Forms.DataGridViewCheckBoxColumn colStatus;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn colIsAdmin;
         private System.Windows.Forms.DataGridViewTextBoxColumn colLastAccess;
     }
 }

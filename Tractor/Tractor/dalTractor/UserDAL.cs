@@ -82,6 +82,7 @@ namespace dalTractor
                     user.Email = drow["email"].ToString();
                     user.Mobile = drow["mobile"].ToString();
                     user.Status = Convert.ToInt32(drow["status"].ToString());
+                    user.RoleAdmin = Convert.ToInt32(drow["role_admin"].ToString());
                     user.LastAccess = drow["lastaccess"].ToString();
                     users.Add(user);
                 }
@@ -111,7 +112,7 @@ namespace dalTractor
             }
         }
 
-        public static void update(int UserID, string FirstName, string LastName, string Username, string Password, string Email, string Mobile, int Status, int updateUserId)
+        public static void update(int UserID, string FirstName, string LastName, string Username, string Password, string Email, string Mobile, int Status, int RoleAdmin, int updateUserId)
         {
             try
             {
@@ -125,6 +126,7 @@ namespace dalTractor
                 lstParameter.Add(new MySqlParameter("_Email", Email));
                 lstParameter.Add(new MySqlParameter("_Mobile", Mobile));
                 lstParameter.Add(new MySqlParameter("_Status", Status));
+                lstParameter.Add(new MySqlParameter("_RoleAdmin", RoleAdmin));
                 lstParameter.Add(new MySqlParameter("_UpdateUserID", updateUserId));
 
                 sqlHelper.executenonquery(lstParameter, "UpdateUser");
@@ -135,7 +137,7 @@ namespace dalTractor
             }
         }
 
-        public static void add(string FirstName, string LastName, string Username, string Password, string Email, string Mobile, int Status, int createUserId)
+        public static void add(string FirstName, string LastName, string Username, string Password, string Email, string Mobile, int Status, int RoleAdmin, int createUserId)
         {
             try
             {
@@ -148,6 +150,7 @@ namespace dalTractor
                 lstParameter.Add(new MySqlParameter("_Email", Email));
                 lstParameter.Add(new MySqlParameter("_Mobile", Mobile));
                 lstParameter.Add(new MySqlParameter("_Status", Status));
+                lstParameter.Add(new MySqlParameter("_RoleAdmin", RoleAdmin));
                 lstParameter.Add(new MySqlParameter("_CreateUserID", createUserId));
 
                 sqlHelper.executenonquery(lstParameter, "CreateUser");

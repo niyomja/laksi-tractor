@@ -34,7 +34,7 @@ namespace appTractor.Model
 
         public void update(User user, int updateUserId)
         {
-            UserDAL.update(user.UserID, user.FirstName, user.LastName, user.Username, user.Password, user.Email, user.Mobile, user.Status, updateUserId);
+            UserDAL.update(user.UserID, user.FirstName, user.LastName, user.Username, user.Password, user.Email, user.Mobile, user.Status, user.RoleAdmin, updateUserId);
         }
 
         public bool add(User user, int createUserId)
@@ -42,7 +42,7 @@ namespace appTractor.Model
             this.user = user;
             if (invalid())
             {
-                UserDAL.add(user.FirstName, user.LastName, user.Username, user.Password, user.Email, user.Mobile, user.Status, createUserId);
+                UserDAL.add(user.FirstName, user.LastName, user.Username, user.Password, user.Email, user.Mobile, user.Status, user.RoleAdmin, createUserId);
                 return true;
             }
             else {

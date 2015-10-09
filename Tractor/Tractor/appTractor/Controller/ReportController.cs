@@ -57,6 +57,10 @@ namespace appTractor.Controller
                     {
                         CreateReport = new CreateReportDelegate(createCustomerReport);
                     }; break;
+                case "transaction_report":
+                    {
+                        CreateReport = new CreateReportDelegate(createTransactionReport);
+                    }; break;
             }
             if (CreateReport != null)
                 CreateReport();
@@ -167,8 +171,26 @@ namespace appTractor.Controller
                 return 0;
         }
 
-        
+        private void createTransactionReport() {
+            try
+            {
+                myReport = new ReportDocument();
+                myData = reportModel.getTransactionReport(view.dtFromDate.Value, view.dtEndDate.Value, (view.chkAll.Checked) ? 0 : getSelectedBrand());
 
+                //myData.WriteXml(@".\CRTransactionReport.xml", XmlWriteMode.WriteSchema);
+
+                myReport.Load(@".\Report\CRTransactionReport.rpt");
+
+                myReport.Database.Tables[0].SetDataSource(myData.Tables[0]);
+                myReport.Database.Tables[1].SetDataSource(myData.Tables[1]);
+
+                view.crystalReportViewer1.ReportSource = myReport;
+            }
+            catch (CrystalDecisions.CrystalReports.Engine.DataSourceException ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            } 
+        }
         
     }
 }

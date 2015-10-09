@@ -91,6 +91,7 @@
     <Compile Include="Controller\BrandController.cs" />
     <Compile Include="Controller\CompanyController.cs" />
     <Compile Include="Controller\CustomerController.cs" />
+    <Compile Include="Controller\DEVController.cs" />
     <Compile Include="Controller\HomeController.cs" />
     <Compile Include="Controller\IControllerBase.cs" />
     <Compile Include="Controller\InventoryController.cs" />
@@ -132,6 +133,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CRSaleReport.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\CRTransactionReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRTransactionReport.rpt</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="View\dgBrand.cs">
@@ -180,6 +186,10 @@
     <EmbeddedResource Include="Report\CRSaleReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRSaleReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CRTransactionReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRTransactionReport.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="View\dgBrand.resx">
       <DependentUpon>dgBrand.cs</DependentUpon>

@@ -33,6 +33,7 @@
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("รายงานสินค้าคงคลัง", 0);
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("รายงานการขาย", 0);
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("รายงานลูกค้า", 0);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("รายงานการแก้ไขรายการ", 0);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newBrandToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -215,7 +216,7 @@
             // 
             this.imgBrandList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgBrandList.ImageStream")));
             this.imgBrandList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgBrandList.Images.SetKeyName(0, "settings.png");
+            this.imgBrandList.Images.SetKeyName(0, "png-0096.png");
             // 
             // groupBox2
             // 
@@ -246,10 +247,13 @@
             listViewItem2.ToolTipText = "รายงานการขาย";
             listViewItem3.Tag = "customer_report";
             listViewItem3.ToolTipText = "รายงานลูกค้า";
+            listViewItem4.Tag = "transaction_report";
+            listViewItem4.ToolTipText = "รายงานการแก้ไขรายการ";
             this.lvReport.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2,
-            listViewItem3});
+            listViewItem3,
+            listViewItem4});
             this.lvReport.LargeImageList = this.imageReportList;
             this.lvReport.Location = new System.Drawing.Point(16, 32);
             this.lvReport.Name = "lvReport";

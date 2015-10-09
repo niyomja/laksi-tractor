@@ -81,5 +81,24 @@ namespace dalTractor
                 throw e;
             }
         }
+
+        public static DataSet getTransactionReport(DateTime startDate, DateTime endDate, int brandId)
+        {
+            try
+            {
+                SQLHelper dbhelper = new SQLHelper();
+
+                List<MySqlParameter> lstParameter = new List<MySqlParameter>();
+                lstParameter.Add(new MySqlParameter("_StartDate", startDate));
+                lstParameter.Add(new MySqlParameter("_EndDate", endDate));
+                lstParameter.Add(new MySqlParameter("_BrandID", brandId));
+
+                return dbhelper.executeSP(lstParameter, "SelectTransactionReport");
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
     }
 }

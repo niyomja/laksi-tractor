@@ -27,5 +27,10 @@ namespace appTractor.Model
         {
             return ReportDAL.getBalanceReport(startDate, endDate, brandId);
         }
+
+        public DataSet getTransactionReport(DateTime startDate, DateTime endDate, int brandId)
+        {
+            return ReportDAL.getTransactionReport(startDate, endDate, brandId);
+        }
     }
 }

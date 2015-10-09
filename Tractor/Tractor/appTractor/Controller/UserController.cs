@@ -21,7 +21,7 @@ namespace appTractor.Controller
             userModel = new UserModel();
 
             vcommon = new dgCommon();
-            vcommon.Width = 850;
+            vcommon.Width = 940;
 
             view = new ucUser();
 
